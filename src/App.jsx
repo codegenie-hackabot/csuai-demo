@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import SlotMachine from './SlotMachine';
+import Apology from './Apology';
 
 function App() {
   // Fibonacci counter state: keep previous two numbers
@@ -23,6 +24,8 @@ function App() {
       </p>
       <button onClick={incrementFib} style={{ marginBottom: '1rem' }}>Next Fibonacci</button>
       <SlotMachine />
+      {/* Apology letter to the team */}
+      <Apology />
     </div>
   );
 }
