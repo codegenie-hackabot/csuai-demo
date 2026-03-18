@@ -1,30 +1,26 @@
-# Specification for csuai-demo Vite React App
+# SPECIFICATION.md
 
 ## Overview
-This repository contains a collection of demo React components showcasing various UI and interactive features. The app is built with Vite and React.
+This Vite React app showcases a collection of interactive demo components such as BouncingBall, CameraFeed, ContactModal, DinoGame, Potato, SlotMachine, Stopwatch, VoiceRecorder, StereoMadness, GTA6, and PollMock.
 
-## Existing Components
-- **BouncingBall** – simple animation of a ball.
-- **CameraFeed** – displays webcam feed.
-- **ContactModal** – modal contact form.
+## Header Update
+Added a header section that displays "Kirby" and "Jigglypuff" images to give the app a playful theme.
+
+## Components
+- **StereoMadness** – Visual audio visualizer.
+- **GTA6** – Placeholder component.
+- **BouncingBall** – Simple animation.
+- **CameraFeed** – Webcam integration.
+- **ContactModal** – Modal contact form.
 - **DinoGame** – Chrome dinosaur game clone.
-- **Potato** – playful component.
-- **SlotMachine** – slot machine simulation.
-- **Stopwatch** – basic stopwatch.
-- **VoiceRecorder** – records audio.
-- **StereoMadness**, **GTA6**, **CameraFeedComponent**, **SlotMachineComponent** – additional demo components.
+- **Potato** – Fun component.
+- **SlotMachine** – Slot machine simulation.
+- **Stopwatch** – Timer utility.
+- **VoiceRecorder** – Record audio.
+- **PollMock** – Mock poll UI.
 
-## New Feature: Poll Mock UI
-- **Component:** `PollMock.jsx`
-- **Purpose:** Provides a simple mock poll UI where users can vote for their favorite demo feature.
-- **Behavior:** Displays a question with four options. Clicking an option increments its vote count and highlights the selected button.
-- **Styling:** Defined in `PollMock.css` with basic layout, button states, and vote count display.
-- **Integration:** Imported and rendered in `App.jsx` after existing demo components.
-
-## Future Directions
-- Connect poll to a backend for persistent storage.
-- Add more dynamic questions.
-- Provide results visualization.
-
----
-*Generated on 2026-03-18.*
+## Build & Run
+```bash
+npm install
+npm run dev
+```
