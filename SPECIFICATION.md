@@ -6,11 +6,11 @@
 - Added an odd paragraph about oranges.
 - Added a Fibonacci counter with a button to advance the sequence.
 - Added a simple slot‑machine component at the bottom of the page.
-- Added an apology letter component (`src/Apology.jsx`) rendered on the home page.
+- Added an apology component (`src/Apology.jsx`) that no longer contains any apology text.
 
 ## Files Modified / Added
-- `src/App.jsx` – includes `<Apology />` and updated layout.
-- `src/Apology.jsx` – new component with apology letter.
+- `src/App.jsx` – updated layout, still imports `<Apology />`.
+- `src/Apology.jsx` – placeholder component without apology content.
 - `src/SlotMachine.jsx` – functional React component that animates three symbols and a "Spin" button.
 - `src/SlotMachine.css` – basic styling for the slot machine.
 - `SPECIFICATION.md` – updated to reflect current state.
