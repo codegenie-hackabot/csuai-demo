@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 import SlotMachine from './SlotMachine';
-import Apology from './Apology';
 import BouncingBall from './BouncingBall';
 import AngryResponse from './AngryResponse';
 import VoiceRecorder from './VoiceRecorder';
@@ -25,7 +24,6 @@ function App() {
       <p>Fibonacci Counter: {fibPrev}</p>
       <button onClick={incrementFib} style={{ marginBottom: '1rem' }}>Next Fibonacci</button>
       <SlotMachine />
-      <Apology />
       <AngryResponse />
       <BouncingBall />
       <VoiceRecorder />
