@@ -55,6 +55,14 @@ body {
   animation: gradientShift 12s ease infinite;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(135deg, #2c003e, #550033, #2c003e);
+    background-size: 600% 600%;
+    animation: gradientShift 12s ease infinite;
+  }
+}
+
 @keyframes gradientShift {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
