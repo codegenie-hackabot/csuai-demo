@@ -1,16 +1,21 @@
 # Specification
 
 ## Overview
-This repository hosts a simple Vite‑React demo application.
+The application is a Vite + React demo containing various interactive components (games, utilities, etc.).
 
-## Current Features
-- **App.jsx** renders a page that imports and displays all demo components.
-- Components included: **StereoMadness**, **GTA6**, **BouncingBall**, **CameraFeed**, **ContactModal**, **DinoGame**, **Potato**, **SlotMachine**, **Stopwatch**, **VoiceRecorder**.
-- The previous **Tidal Wave Gameplay** embed has been removed from `StereoMadness`.
+## Design Goals
+- Provide a light theme with a custom animated gradient background.
+- Add a matching dark‑mode gradient that activates when the user’s OS prefers a dark color scheme.
+- Keep the existing component styles untouched; only the global background is affected.
+
+## Implementation Details
+- Updated **src/index.css**:
+  - Defined the base CSS variables for light and dark themes.
+  - Added an animated gradient on the `body` element for the light theme.
+  - Added a `@media (prefers-color-scheme: dark)` block that applies a darker‑toned animated gradient.
+  - The gradient animation (`gradientShift`) smoothly moves the background colors over a 12‑second loop.
+- No JavaScript changes were required; the effect is purely CSS‑based.
 
 ## Future Work
-- Replace placeholder content with real functionality.
-- Add navigation and styling.
-
-## Notes
-All changes are committed to the `main` branch.
+- Add a toggle switch for manual theme selection.
+- Refine gradient colors based on user feedback.
