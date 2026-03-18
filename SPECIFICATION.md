@@ -4,14 +4,13 @@
 This repository hosts a simple Vite‑React demo application.
 
 ## Current Features
-- **App.jsx** renders a minimal page with a title.
-- **StereoMadness.jsx** component displays a placeholder for the Geometry Dash “Stereo Madness” level.
-- The `StereoMadness` component is imported and rendered inside `App.jsx`.
-- The previous embedded **Tidal Wave Gameplay** video has been removed from the `StereoMadness` component.
+- **App.jsx** renders a page that imports and displays all demo components.
+- Components included: **StereoMadness**, **GTA6**, **BouncingBall**, **CameraFeed**, **ContactModal**, **DinoGame**, **Potato**, **SlotMachine**, **Stopwatch**, **VoiceRecorder**.
+- The previous **Tidal Wave Gameplay** embed has been removed from `StereoMadness`.
 
 ## Future Work
-- Replace the placeholder with actual level content or embed.
-- Add styling, navigation, and additional Geometry Dash levels.
+- Replace placeholder content with real functionality.
+- Add navigation and styling.
 
 ## Notes
 All changes are committed to the `main` branch.
