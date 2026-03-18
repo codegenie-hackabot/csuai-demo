@@ -43,8 +43,8 @@ function App() {
           </tr>
         </tbody>
       </table>
-    </div>
-  );
-}
-
-export default App;
+      <h2>Attention is All You Need – Abstract</h2>
+      <p>
+        The paper introduces the Transformer, a novel architecture eschewing recurrence and convolutions entirely in favor of self‑attention mechanisms to draw global dependencies between input and output.
+        It achieves state‑of‑the‑art performance on translation tasks while being more parallelizable and requiring less time to train.
+        <a href="https://proceedings.neurips.cc/paper/2017/file/3f5ee...
