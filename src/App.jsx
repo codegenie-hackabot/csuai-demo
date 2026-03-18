@@ -33,7 +33,7 @@ function App() {
       <p>
         The paper introduces the Transformer, a novel architecture eschewing recurrence and convolutions entirely in favor of self‑attention mechanisms to draw global dependencies between input and output.
         It achieves state‑of‑the‑art performance on translation tasks while being more parallelizable and requiring less time to train.
-        <a href="https://proceedings.neurips.cc/paper/2017/file/3f5ee..." target="_blank" rel="noopener noreferrer">Read the NeurIPS article</a>
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf" target="_blank" rel="noopener noreferrer">Read the NeurIPS article</a>
       </p>
     </div>
   );
