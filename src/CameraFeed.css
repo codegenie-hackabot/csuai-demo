@@ -1,12 +1,12 @@
 .camera-feed {
   margin: 2rem auto;
-  max-width: 600px;
+  max-width: 500px;
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 .camera-video {
   width: 100%;
   max-height: 400px;
-  background: #000;
-  border: 2px solid #333;
+  border: 1px solid #ccc;
 }
