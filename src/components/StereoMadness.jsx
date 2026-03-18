@@ -13,7 +13,7 @@ function StereoMadness() {
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/7k3JzV3yF3w"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
         title="Tidal Wave Gameplay"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
