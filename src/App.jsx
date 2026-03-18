@@ -9,8 +9,8 @@ function Sponsors() {
     { name: 'Google', url: 'https://www.google.com', logo: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png' },
     { name: 'JetBrains', url: 'https://www.jetbrains.com', logo: 'https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.png' },
     { name: 'OpenAI', url: 'https://openai.com', logo: 'https://openai.com/content/images/2022/05/openai-avatar.png' },
-    { name: 'Anthropic', url: 'https://www.anthropic.com', logo: 'https://www.anthropic.com/images/anthropic-logo.svg' },
-    { name: 'IBM', url: 'https://www.ibm.com', logo: 'https://www.ibm.com/brand/logo/logo.png' },
+    { name: 'Anthropic', url: 'https://www.anthropic.com', logo: 'https://www.anthropic.com/_next/static/media/anthropic-logo.c2e7a9a0.svg' },
+    { name: 'IBM', url: 'https://www.ibm.com', logo: 'https://www.ibm.com/brand/IBM_logo.svg' },
     { name: 'and more', url: '#', logo: '' },
   ];
   return (
