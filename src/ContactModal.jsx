@@ -8,7 +8,7 @@ function ContactModal({ isOpen, onClose }) {
       <div className="modal-content" onClick={e => e.stopPropagation()}>
         <h2>Contact Us</h2>
         <p>Email: <a href="mailto:info@csuai-demo.com">info@csuai-demo.com</a></p>
-        <p>Phone: +1 (555) 123‑4567</p>
+        <p>Phone: +1 (323) 301‑1834</p>
         <button onClick={onClose}>Close</button>
       </div>
     </div>
