@@ -15,9 +15,9 @@ import PollMock from './PollMock';
 function App() {
   return (
     <div className="app-container" style={{ textAlign: 'center', marginTop: '2rem' }}>
-      <h1>My Website Title</h1>
+      <h1>My Website Title 🏴‍☠️</h1>
       <div>
-        <h2>Kirby and Jigglypuff</h2>
+        <h2>Kirby and Jigglypuff 💀</h2>
         <img src="https://static.imgburr.com/static/kirby.png" width="100" height="100" alt="Kirby" />
         <img src="https://static.imgburr.com/static/jigglypuff.png" width="100" height="100" alt="Jigglypuff" />
       </div>
