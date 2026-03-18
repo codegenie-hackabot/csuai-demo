@@ -1,16 +1,16 @@
 # Specification
 
 ## Overview
-- Title, subtext, click counter
-- Placeholder GTA 6 component
-- Simple Slot Machine component
-- Purple‑to‑pink animated background gradient
-- Blurred backdrop on the main content area
-- **Live camera feed component** using the browser MediaDevices API
+This repository hosts a simple Vite‑React demo application.
 
-## Styling
-- `body` now uses a `linear‑gradient` that animates via `@keyframes gradientShift` (12‑second loop).
-- `.app‑container` retains a `backdrop-filter: blur(8px)` for a subtle frosted‑glass effect.
+## Current Features
+- **App.jsx** renders a minimal page with a title.
+- **StereoMadness.jsx** component displays a placeholder for the Geometry Dash “Stereo Madness” level.
+- The `StereoMadness` component is imported and rendered inside `App.jsx`.
 
 ## Future Work
-- Add more interactive animations, improve slot‑machine visuals, replace GTA 6 placeholder.
+- Replace the placeholder with actual level content or embed.
+- Add styling, navigation, and additional Geometry Dash levels.
+
+## Notes
+All changes are committed to the `main` branch.
