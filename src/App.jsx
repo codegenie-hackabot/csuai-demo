@@ -4,6 +4,7 @@ import SlotMachine from './SlotMachine';
 import Apology from './Apology';
 import BouncingBall from './BouncingBall';
 import AngryResponse from './AngryResponse';
+import VoiceRecorder from './VoiceRecorder';
 
 function App() {
   const [fibPrev, setFibPrev] = useState(0);
@@ -26,6 +27,7 @@ function App() {
       <Apology />
       <AngryResponse />
       <BouncingBall />
+      <VoiceRecorder />
     </div>
   );
 }
