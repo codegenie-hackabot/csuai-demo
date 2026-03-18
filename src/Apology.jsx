@@ -1,15 +1,1 @@
-import React from 'react';
-
-function Apology() {
-  return (
-    <div style={{ marginTop: '2rem', padding: '1rem', border: '1px solid #f00', backgroundColor: '#ffe6e6' }}>
-      <h2>Apology Letter</h2>
-      <p>Dear Team,</p>
-      <p>We sincerely apologize for the oversight in the special mentions. It was never our intention to cause any disappointment. Your hard work and creativity truly deserve recognition, and we regret any inconvenience caused.</p>
-      <p>We appreciate your participation and hope you continue to innovate in future events.</p>
-      <p>Best regards,<br/>Hackathon Judges</p>
-    </div>
-  );
-}
-
-export default Apology;
+aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKCmZ1bmN0aW9uIEFwb2xvZ3koKSB7CiAgcmV0dXJuICgoCiAgICA8ZGl2IHN0eWxlPXt7IG1hcmdpblRvcDogJzJremV3JywgZmlsdGVyOiAnbGVzcycgfX0+CiAgICAgIDxobz5Bbm90aGVyIEZlYXR1cmU8L2hvPjxcclxuICA8L2Rpdj4pOwp9CgovLyBleHBvcnQgZGVmYXVsdCBhcHBvbmVtZW50Cgp9
