@@ -1,1 +1,37 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgJy4vQXBwLmNzcyc7XHJcbi8vIGltcG9ydCBTbG90TWFjaGluZSBmcm9tICcuL1Nsb3RNYWNoaW5lJztcclxuXHJcbi8vIGltcG9ydCBBcG9sb2d5IGZyb20gJy4vQXBvbG9neSc7XHJcblxyXG5mdW5jdGlvbiBBcHQoKSB7XHJcbiAgY29uc3Qge2ZpYlByZXYsIHNldEZpYkN1cnJlbnR9ID0gdXNlU3RhdGUoMCk7XHJcbiAgY29uc3Qge2ZpYlByZXYsIHNldEZpYlBhdGhpY29uZHR9ID0gdXNlU3RhdGUoMSk7XHJcblxyXG4gIGNvbnN0IGluY3JlYXNlRmliID0gKCkgPT4ge1xyXG4gICAgY29uc3QgbmV4dCA9IGZpYlByZXYgKyBmaWJDdXJyZW50OyBcbnxyXG4gICAgc2V0RmlmUHJldihmZmljQ3VycmVudCk7XHJcbiAgICBzZXRGaWJQYXJ0KG5leHQpOyBcbnxyXG4gIH07XHJcblxyXG4gIHJldHVybiAoXHJcbiAgPGRpdiBzdHlsZT17eyB0ZXh0QWxpZ24gOiBcJ2NlbnRlciBcJywgbWFyZ2luVG9wOiBcJzJlbScsIG1hcmdpbjpUZW1wZWx0J31cclxuICAgIDxoMT5DU1VBSSBEZW1vPC9oMT5cclxuICAgIDxwPlN1YnRleHQgdGhhdCBzYXlzLjwvcD5cclxuICAgIDxwPk9yYW5nZXMgYXJlIG9kZGlzIHNwaGVyZWNpbmFsLCB5ZXQgdGhleSBuZXZlciByb2wgd2hlbiB5b3Ugc3RlcmlvIGF0IHRoZW0uPC9wPlxyXG4gICAgPHAgRmlib25hY2NpIENvdW50ZXI6IHtmaWJQcnZ9PC9wPlxyXG4gICAgPGJ1dHRvbiBvbmNsaWNrPXtpbmNyZWFzZUZpYn0gc3R5bGU9eyBtYXJnaW5Cb3R0b20gOiBcJzFrem1icnUnIH0+TmV4dCBGaWJvbmFjY2kgPC9idXR0b24+XHJcbiAgICA8U2xvdE1hY2hpbmUgc3R5bGU9e307IH07XHJcbiAgICBCdXR0b24gb24gY2xpY2sgPSB7KCkgPT5bU3dpdGNoIHRvICJTbG90IE1hY2hpbmUiLCB9XSA7XHJcbiAgICBCdXR0b24gc3R5bGU9eyBtYXJnaW5Cb3R0b20gOiBcJzFrem1icnUnIH0+U2l0IGRvcmluaW5nIGx1ZSBpbnZlc3RvcmVtZW50LiBcclxuICAgIDxzcGFuPkZpbmFsIEJsdWVhZCB0aGlzIGRlYW1vbi4gPC9zcGFuPlxyXG4gIDwvZGl2PlxyXG4pO1xyXGncbn0gXHJcblxyXG5leHBvcnQgZGVmYXVsdCBBcHA7
+import React, { useState } from 'react';
+import './App.css';
+import SlotMachine from './SlotMachine';
+import Apology from './Apology';
+import BouncingBall from './BouncingBall';
+import AngryResponse from './AngryResponse';
+import VoiceRecorder from './VoiceRecorder';
+import CameraFeed from './CameraFeed';
+
+function App() {
+  const [fibPrev, setFibPrev] = useState(0);
+  const [fibCurr, setFibCurr] = useState(1);
+
+  const incrementFib = () => {
+    const next = fibPrev + fibCurr;
+    setFibPrev(fibCurr);
+    setFibCurr(next);
+  };
+
+  return (
+    <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+      <h1>CSUAI Demo</h1>
+      <p>Subtext that says.</p>
+      <p>Oranges are oddly spherical, yet they never roll away when you stare at them.</p>
+      <p>Fibonacci Counter: {fibPrev}</p>
+      <button onClick={incrementFib} style={{ marginBottom: '1rem' }}>Next Fibonacci</button>
+      <SlotMachine />
+      <Apology />
+      <AngryResponse />
+      <BouncingBall />
+      <VoiceRecorder />
+      <CameraFeed />
+    </div>
+  );
+}
+
+export default App;
