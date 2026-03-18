@@ -7,17 +7,19 @@ const CameraFeed = () => {
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
-    const enableCamera = async () => {
-      try {
-        const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      alert('Camera not supported in this browser');
+      return;
+    }
+    navigator.mediaDevices.getUserMedia({ video: true })
+      .then(stream => {
         video.srcObject = stream;
         video.play();
-      } catch (err) {
-        console.error('Camera error:', err);
+      })
+      .catch(err => {
+        console.error('Error accessing camera:', err);
         alert('Unable to access camera');
-      }
-    };
-    enableCamera();
+      });
     return () => {
       if (video && video.srcObject) {
         const tracks = video.srcObject.getTracks();
@@ -28,7 +30,7 @@ const CameraFeed = () => {
 
   return (
     <div className="camera-feed">
-      <h3>Live Camera Feed</h3>
+      <h3>Camera Feed</h3>
       <video ref={videoRef} className="camera-video" muted />
     </div>
   );
