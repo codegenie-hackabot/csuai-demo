@@ -1,21 +1,30 @@
-# Specification
+# Specification for csuai-demo Vite React App
 
 ## Overview
-The application is a Vite + React demo containing various interactive components (games, utilities, etc.).
+This repository contains a collection of demo React components showcasing various UI and interactive features. The app is built with Vite and React.
 
-## Design Goals
-- Provide a light theme with a custom animated gradient background.
-- Add a matching dark‑mode gradient that activates when the user’s OS prefers a dark color scheme.
-- Keep the existing component styles untouched; only the global background is affected.
+## Existing Components
+- **BouncingBall** – simple animation of a ball.
+- **CameraFeed** – displays webcam feed.
+- **ContactModal** – modal contact form.
+- **DinoGame** – Chrome dinosaur game clone.
+- **Potato** – playful component.
+- **SlotMachine** – slot machine simulation.
+- **Stopwatch** – basic stopwatch.
+- **VoiceRecorder** – records audio.
+- **StereoMadness**, **GTA6**, **CameraFeedComponent**, **SlotMachineComponent** – additional demo components.
 
-## Implementation Details
-- Updated **src/index.css**:
-  - Defined the base CSS variables for light and dark themes.
-  - Added an animated gradient on the `body` element for the light theme.
-  - Added a `@media (prefers-color-scheme: dark)` block that applies a darker‑toned animated gradient.
-  - The gradient animation (`gradientShift`) smoothly moves the background colors over a 12‑second loop.
-- No JavaScript changes were required; the effect is purely CSS‑based.
+## New Feature: Poll Mock UI
+- **Component:** `PollMock.jsx`
+- **Purpose:** Provides a simple mock poll UI where users can vote for their favorite demo feature.
+- **Behavior:** Displays a question with four options. Clicking an option increments its vote count and highlights the selected button.
+- **Styling:** Defined in `PollMock.css` with basic layout, button states, and vote count display.
+- **Integration:** Imported and rendered in `App.jsx` after existing demo components.
 
-## Future Work
-- Add a toggle switch for manual theme selection.
-- Refine gradient colors based on user feedback.
+## Future Directions
+- Connect poll to a backend for persistent storage.
+- Add more dynamic questions.
+- Provide results visualization.
+
+---
+*Generated on 2026-03-18.*
