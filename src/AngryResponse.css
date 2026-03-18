@@ -1,0 +1,20 @@
+.angry-response {
+  background: #ffe6e6;
+  border: 2px solid #ff4d4d;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+  color: #800000;
+}
+
+.angry-response h2 {
+  color: #b30000;
+  margin-bottom: 0.5rem;
+}
+
+.angry-response .signature {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: right;
+}
