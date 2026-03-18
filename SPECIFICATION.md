@@ -1,3 +1,4 @@
-# Specification
+# Project Specification
 
-- Updated subtext in App component to include the phrase "narnes and bobles".
+- Add a spreadsheet for judges to test the project.
+- Spreadsheet file: `judge_test_cases.csv` containing test cases.
