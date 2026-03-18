@@ -21,8 +21,14 @@ function App() {
           <tr><td style={{ border: '1px solid #000', padding: '8px' }}>Q2</td><td style={{ border: '1px solid #000', padding: '8px' }}>$12,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$8,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$4,000</td></tr>
           <tr><td style={{ border: '1px solid #000', padding: '8px' }}>Q3</td><td style={{ border: '1px solid #000', padding: '8px' }}>$15,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$9,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$6,000</td></tr>
           <tr><td style={{ border: '1px solid #000', padding: '8px' }}>Q4</td><td style={{ border: '1px solid #000', padding: '8px' }}>$20,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$11,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$9,000</td></tr>
+          <tr><td style={{ border: '1px solid #000', padding: '8px' }}>Q5</td><td style={{ border: '1px solid #000', padding: '8px' }}>$30,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$15,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$15,000</td></tr>
+          <tr><td style={{ border: '1px solid #000', padding: '8px' }}>Q6</td><td style={{ border: '1px solid #000', padding: '8px' }}>$45,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$20,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$25,000</td></tr>
+          <tr><td style={{ border: '1px solid #000', padding: '8px' }}>Q7</td><td style={{ border: '1px solid #000', padding: '8px' }}>$60,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$25,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$35,000</td></tr>
+          <tr><td style={{ border: '1px solid #000', padding: '8px' }}>Q8</td><td style={{ border: '1px solid #000', padding: '8px' }}>$80,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$30,000</td><td style={{ border: '1px solid #000', padding: '8px' }}>$50,000</td></tr>
         </tbody>
       </table>
+      <h2>Misleading Graph</h2>
+      <img src="https://via.placeholder.com/400x200?text=Misleading+Graph" alt="Misleading graph" style={{ marginTop: '1rem' }} />
       <h2>Attention is All You Need – Abstract</h2>
       <p>
         The paper introduces the Transformer, a novel architecture eschewing recurrence and convolutions entirely in favor of self‑attention mechanisms to draw global dependencies between input and output.
