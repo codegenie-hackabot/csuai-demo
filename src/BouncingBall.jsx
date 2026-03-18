@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-const BouncingBall = () => {
+const BouncingBall = ({ speed = 1 }) => {
   const ballRef = useRef(null);
   const containerRef = useRef(null);
 
@@ -12,8 +12,12 @@ const BouncingBall = () => {
     const radius = 20; // half of ball size (40px)
     let posX = radius;
     let posY = radius;
-    let velX = 2;
-    let velY = 3;
+    // base velocities
+    let baseVelX = 2;
+    let baseVelY = 3;
+    // current velocities scaled by speed
+    let velX = baseVelX * speed;
+    let velY = baseVelY * speed;
 
     const animate = () => {
       const { width, height } = container.getBoundingClientRect();
@@ -25,7 +29,16 @@ const BouncingBall = () => {
       requestAnimationFrame(animate);
     };
     requestAnimationFrame(animate);
-  }, []);
+    // update velocities when speed changes
+    const speedObserver = new MutationObserver(() => {
+      velX = baseVelX * speed;
+      velY = baseVelY * speed;
+    });
+    // not needed, speed changes cause component re-render and new effect runs
+    return () => {
+      // cleanup
+    };
+  }, [speed]);
 
   return (
     <div
