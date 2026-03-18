@@ -1,12 +1,1 @@
-# Specification for csuai-demo
-
-## Overview
-- The application is a minimal Vite + React single‑page app.
-- `src/App.jsx` now displays a centered title, subtext, a button, and a click counter.
-
-## Files Modified
-- `src/App.jsx` – added a stateful button that updates a counter.
-- `SPECIFICATION.md` – updated to reflect the new feature.
-
-## Future Work
-- Add more sections, components, or styling as the project evolves.
+# Specification\n\n## Overview\nThis Vite React app displays a simple title, subtext, a click counter, and now includes a placeholder component for GTA 6.\n\n## Components\n- **App**: Main component with title, subtext, button counter, and GTA6 component.\n- **GTA6**: Placeholder component showing a heading and placeholder text.\n\n## Future Work\n- Replace GTA6 placeholder with actual game‑related content or integration.\n
