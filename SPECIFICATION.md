@@ -10,7 +10,7 @@
 - **Investor Pitch** section appended to the bottom of the page.
 - **Financial projection table** added under the pitch.
 - **Contact Us modal** added with a button to open it.
-- **Spinning Potato** component added at the bottom center of the page, rotating continuously.
+- **Spinning Potato** component added at the bottom centre of the page, now using the 🥔 emoji and rotating continuously.
 
 ## Files Modified / Added
 - `src/App.jsx` – updated layout, includes investor pitch, financial table, contact modal, and Potato component.
@@ -19,7 +19,7 @@
 - `src/Apology.jsx` – placeholder component.
 - `src/SlotMachine.jsx` – functional component.
 - `src/SlotMachine.css` – basic styling.
-- `src/Potato.jsx` – new component showing a spinning potato image.
+- `src/Potato.jsx` – component now renders the 🥔 emoji instead of an image.
 - `src/Potato.css` – CSS for positioning and spin animation.
 - `SPECIFICATION.md` – updated to reflect current state.
 
