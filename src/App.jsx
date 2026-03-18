@@ -19,8 +19,11 @@ function Sponsors() {
       <ul style={{ listStyle: 'none', padding: 0, display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem' }}>
         {sponsors.map((s) => (
           <li key={s.name} style={{ background: 'var(--accent-bg)', padding: '0.5rem 1rem', borderRadius: '4px', display: 'flex', alignItems: 'center' }}>
-            {s.logo && <img src={s.logo} alt={s.name} style={{ width: '24px', height: '24px', marginRight: '0.5rem' }} />}
-            <a href={s.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-h)', textDecoration: 'none' }}>{s.name}</a>
+            {s.logo && (
+              <a href={s.url} target="_blank" rel="noopener noreferrer">
+                <img src={s.logo} alt={s.name} style={{ width: '64px', height: '64px', objectFit: 'contain' }} />
+              </a>
+            )}
           </li>
         ))}
       </ul>
