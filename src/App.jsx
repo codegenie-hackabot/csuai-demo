@@ -12,6 +12,7 @@ import StereoMadness from './components/StereoMadness';
 import GTA6 from './components/GTA6';
 import CameraFeedComponent from './components/CameraFeed';
 import SlotMachineComponent from './components/SlotMachine';
+import PollMock from './PollMock';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <SlotMachine />
       <Stopwatch />
       <VoiceRecorder />
+      <PollMock />
     </div>
   );
 }
