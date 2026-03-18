@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import GTA6 from './components/GTA6';
 import SlotMachine from './components/SlotMachine';
+import CameraFeed from './components/CameraFeed';
 
 function Sponsors() {
   const sponsors = [
@@ -39,6 +40,7 @@ function App() {
       <p>Button clicked {count} times.</p>
       <GTA6 />
       <SlotMachine />
+      <CameraFeed />
       <Sponsors />
     </div>
   );
