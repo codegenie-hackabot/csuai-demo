@@ -37,6 +37,9 @@ function App() {
         <a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf" target="_blank" rel="noopener noreferrer">Read the NeurIPS article</a>
       </p>
       <DinoGame />
+      <p style={{ marginTop: '2rem' }}>
+        <a href="https://github.com/codegenie-hackabot/csuai-demo" target="_blank" rel="noopener noreferrer">View this project on GitHub</a>
+      </p>
     </div>
   );
 }
