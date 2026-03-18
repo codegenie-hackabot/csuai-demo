@@ -5,12 +5,12 @@ import CameraFeed from './CameraFeed';
 import ContactModal from './ContactModal';
 import DinoGame from './DinoGame';
 import Potato from './Potato';
-import SlotToolbag from './SlotToolbag';
+import SlotMachine from './SlotMachine';
 import Stopwatch from './Stopwatch';
 import VoiceRecorder from './VoiceRecorder';
 import StereoMadness from './components/StereoMadness';
 import GTA6 from './components/GTA6';
-import PollModel from './PollModel';
+import PollMock from './PollMock';
 
 function App() {
   return (
@@ -29,10 +29,10 @@ function App() {
       <ContactModal />
       <DinoGame />
       <Potato />
-      <SlotToolbag />
+      <SlotMachine />
       <Stopwatch />
       <VoiceRecorder />
-      <PollModel />
+      <PollMock />
     </div>
   );
 }
