@@ -1,1 +1,13 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKCmZ1bmN0aW9uIEFwb2xvZ3koKSB7CiAgcmV0dXJuICgoCiAgICA8ZGl2IHN0eWxlPXt7IG1hcmdpblRvcDogJzJremV3JywgZmlsdGVyOiAnbGVzcycgfX0+CiAgICAgIDxobz5Bbm90aGVyIEZlYXR1cmU8L2hvPjxcclxuICA8L2Rpdj4pOwp9CgovLyBleHBvcnQgZGVmYXVsdCBhcHBvbmVtZW50Cgp9
+import React from 'react';
+
+function Apology() {
+  // Placeholder component – original apology text removed per request
+  return (
+    <div style={{ marginTop: '2rem', padding: '1rem', border: '1px solid #ccc', backgroundColor: '#f9f9f9' }}>
+      <h2>Apology Component</h2>
+      <p>(Apology content has been removed.)</p>
+    </div>
+  );
+}
+
+export default Apology;
