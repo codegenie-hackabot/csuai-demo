@@ -1,13 +1,13 @@
 .potato-container {
   position: fixed;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 10px;
+  right: 10px;
 }
 
-.potato-image {
-  width: 80px;
+.potato-emoji {
+  font-size: 48px;
   animation: spin 3s linear infinite;
+  display: inline-block;
 }
 
 @keyframes spin {
