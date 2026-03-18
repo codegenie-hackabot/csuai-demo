@@ -57,6 +57,13 @@ function App() {
       <VoiceRecorder />
       <Stopwatch />
       <BouncingBall speed={ballSpeed} />
+      {/* Investor Pitch */}
+      <section style={{ marginTop: '2rem', padding: '1rem', backgroundColor: '#f0f8ff' }}>
+        <h2>Investor Pitch</h2>
+        <p>We are building an interactive AI‑powered sandbox that showcases cutting‑edge web technologies. Our platform combines real‑time video, voice recording, mini‑games, and dynamic visualizations to create a compelling demo for investors looking to fund next‑generation user experiences.</p>
+        <p>Key metrics: rapid prototyping, modular React components, and a Vite build that scales.</p>
+        <p>Join us to accelerate innovation and capture market share in immersive web applications.</p>
+      </section>
     </div>
   );
 }
