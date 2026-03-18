@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import GTA6 from './components/GTA6';
+import SlotMachine from './components/SlotMachine';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       </button>
       <p>Button clicked {count} times.</p>
       <GTA6 />
+      <SlotMachine />
     </div>
   );
 }
