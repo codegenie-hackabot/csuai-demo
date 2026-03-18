@@ -1,1 +1,32 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCB9IGZyb20gJ3JlYWN0JzsKXG5pbXBvcnQgJyAuLi9BcHQuY3NzJzsKXG5mdW5jdGlvbmFsIENhbWVyRmVlZCgpe1xuICBjb25zdCBbYWRkU3RhdGUgLCBzZXRTdGF0ZV0gPSB1c2VFZmZlY3QoJ3Rlc3QnKTsKICBjb25zdCB2aWRlbyA9IHJlYWN0Lmx1c2UoKHBhZ2U9J1ZpZGVvJywgYWx0X2lkPSdjb21wYXJ0b3InLCBhdXRvUGxheT0ge30pLCBzdWJtaXRkYWdlOiBmYWxzZSk7XG4gIFJldHVybiAoXG4gICAgPGRpdj5cbiAgICAgIDx2aWRlbyBhdXRvUGxheT17dHJ1ZSB9IGRlZmF1bHQ9XCJ1c2VyIj48L3ZpZGVvPlxuICAgIDwvaW1hZ2U+XG4gICAgPGJyIC8+XG4gICAgPGJ1dHRvbiBvbmNsaWNrPXtmdW5jdGlvbigpIHsKICAgICAgc2V0U3RhdGUocnVudGluZyA9PiAnU3RhcnRlZCcpO1xuICAgIH0+PlxuICAgIDxkaXY+e1N0YXR1czogc2V0U3RhdGUucnVudGluZ30gPC9kaXY+XG4gICA8L2Rpdj5cbiAgKTtcblxufVxuZXhwb3J0IGRlZmF1bHQgQ2FtZXJGaWVsO1xu
+import React, { useEffect, useState } from 'react';
+import '../App.css';
+
+function CameraFeed() {
+  const [status, setStatus] = useState('idle');
+  const [running, setRunning] = useState(false);
+
+  useEffect(() => {
+    // Simulate starting video feed
+    setStatus('started');
+    setRunning(true);
+    return () => {
+      setStatus('stopped');
+      setRunning(false);
+    };
+  }, []);
+
+  const handleClick = () => {
+    setStatus('running');
+  };
+
+  return (
+    <div>
+      <video autoPlay={true} default="user"></video>
+      <br />
+      <button onClick={handleClick}>Start</button>
+      <div>Status: {status}</div>
+    </div>
+  );
+}
+
+export default CameraFeed;
