@@ -1,5 +1,5 @@
 # Specification
 
-- The website now uses the **IBM Plex Sans** font for all body text.
-- The page title has been updated to **"Fun website"**.
-- A Google Fonts link is added to `index.html` and a global CSS rule sets the `font-family`.
+- The website uses the **IBM Plex Sans** font and the page title is **"Fun website"**.
+- `App.jsx` now displays a simple welcome message instead of the previous complex component set.
+- `index.html` has been restored with the appropriate title and font link.
