@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
 import SlotMachine from './SlotMachine';
-import BouncingBall from './BouncingBall';
-import AngryResponse from './AngryResponse';
-import VoiceRecorder from './VoiceRecorder';
 import CameraFeed from './CameraFeed';
+import VoiceRecorder from './VoiceRecorder';
+import Stopwatch from './Stopwatch';
 
 function App() {
+  // Fibonacci counter state: keep previous two numbers
   const [fibPrev, setFibPrev] = useState(0);
   const [fibCurr, setFibCurr] = useState(1);
 
@@ -24,10 +24,9 @@ function App() {
       <p>Fibonacci Counter: {fibPrev}</p>
       <button onClick={incrementFib} style={{ marginBottom: '1rem' }}>Next Fibonacci</button>
       <SlotMachine />
-      <AngryResponse />
-      <BouncingBall />
-      <VoiceRecorder />
       <CameraFeed />
+      <VoiceRecorder />
+      <Stopwatch />
     </div>
   );
 }
