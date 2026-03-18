@@ -1,5 +1,3 @@
 # Specification
 
-- Added a new React component `SkibidiToilet` located at `src/components/SkibidiToilet.tsx`.
-- Updated `src/App.tsx` to import and render the `SkibidiToilet` component inside the main area.
-- The component displays a styled placeholder on the website.
+The website now uses the **IBM Plex Sans** font for all body text. A Google Fonts link is added to `index.html` and a simple CSS rule sets the `font-family` globally.
