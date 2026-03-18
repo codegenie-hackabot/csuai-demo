@@ -9,9 +9,12 @@
 - Added an apology component (`src/Apology.jsx`) that no longer contains any apology text.
 - **Investor Pitch** section appended to the bottom of the page.
 - **Financial projection table** added under the pitch.
+- **Contact Us modal** added with a button to open it.
 
 ## Files Modified / Added
-- `src/App.jsx` – updated layout, includes investor pitch and financial table.
+- `src/App.jsx` – updated layout, includes investor pitch, financial table, and contact modal.
+- `src/ContactModal.jsx` – new modal component.
+- `src/ContactModal.css` – styling for the modal.
 - `src/Apology.jsx` – placeholder component.
 - `src/SlotMachine.jsx` – functional component.
 - `src/SlotMachine.css` – basic styling.
