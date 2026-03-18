@@ -1,1 +1,17 @@
-# Specification\n\n## Overview\nThis Vite React app displays a simple title, subtext, a click counter, and now includes a placeholder component for GTA 6.\n\n## Components\n- **App**: Main component with title, subtext, button counter, and GTA6 component.\n- **GTA6**: Placeholder component showing a heading and placeholder text.\n\n## Future Work\n- Replace GTA6 placeholder with actual game‑related content or integration.\n
+# Specification
+
+## Overview
+This Vite React app now includes:
+- A title and subtext.
+- A click counter.
+- A placeholder **GTA 6** component.
+- A simple **Slot Machine** component that randomly shows three symbols and indicates a jackpot.
+
+## Components
+- **App** – main layout, imports `GTA6` and `SlotMachine`.
+- **GTA6** – placeholder content for future GTA 6 integration.
+- **SlotMachine** – renders three random symbols, a *Spin* button, and a result message.
+
+## Future Work
+- Enhance the slot machine with animations and payout logic.
+- Replace the GTA 6 placeholder with real content or a game demo.
