@@ -1,1 +1,40 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKCi8vIEltcG9ydCBzdHlsZXMgYW5kIG90aGVyIGNvbXBvbmVudHMKLy8gSW5jbHVkZSBhcHBsaWNhdGlvbiBhcHAgc3R5bGUgaW5zdGFsbGF0aW9ucyBhbmQgYW55IG5lY2Vzc2FyeSBkZWZhdWx0cyBmb3IgdGhlIGhlYWRlciB0byBkaXNwbGF5IGltYWdlcyBmb3Iga2lya2lyIGFuZCBqaWdncnlwdWZmCi8vIEV4dGVtcHRlZCBhdCB0aGUgc2hhcGUtZGF0YSwgZmVhcnMsIGV4YW1wbGUgaW1hZ2VzIGZyb20gZXh0ZXJuYWwgdXJscy4KCmltcG9ydCAnLi9BcHAuY3NzJzsKCmltcG9ydCBCb25zaW5nQmFsbCBmcm9tICcuL0JvbmdzaW5nQmFsbCc7CmltcG9ydCBDYW1lcmFGZWVkIGZyb20gJy4vQ2FtZXJhRmVlZCc7CmltcG9ydCBDb250YWN0TW9kYWwgZnJvbSAnLi9Db250YWN0TW9kYWwnO2ltcG9ydCBDaW5vR2FtZSBmcm9tICcuL0Npbm9HYW1lJztpbXBvcnQgRGlub0dhbWUgZnJvbSAnLi9EaW5vR2FtZSc7aW1wb3J0IFBvdGF0byBmcm9tICcuL1BvdGF0byc7aW1wb3J0IFNsb3RUb29iYWsgZnJvbSAnLi9TbG90VG9vYmFrcyc7aW1wb3J0IFN0b3BwYXJ0IGZyb20gJy4vU3RvcHBlcic7aW1wb3J0IFZvaWNlUmVjb3JkZXIgZnJvbSAnLi9Wb2ljZS1yZWNvcmRlJztpbXBvcnQgU3RlcmlvTWFkc2VuZXNzIGZyb20gJy4vY29tcG9uZW50cy9TdGVyaW9NYWRzZW5lc3MnO2ltcG9ydCBHVEU2IGZyb20gJy4vY29tcG9uZW50cy9HVEE2JztpbXBvcnQgUG9sb3RNb2RlbCBmcm9tICcuL1BvbG90TW9kZWwnOwoKZnVuY3Rpb24gQXBwKCkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iYXBwLWNvbnRhaW5lciIgc3R5bGU9e3RleHQtYWxpZ246ICdjZW50ZXInLCBtYXJnaW5Ub3A6ICcycmVtJ30+CiAgICA8aDE+TXkgV2Vic2l0ZSBUaXRsZTwvaDE+CiAgICA8ZGl2PgoKICAgIDxoMj5LaXJieSBhbmQgSmlnZ2x5cHVmZjwvaDI+CiAgICA8aW1nIHNyYz0iaHR0cHM6Ly9zdGF0aWMuaW1nYnVyci5jb20vc3RhdGljL2tpcmJ5LnBuZyIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGFsdD0iS2lyYnkiIC8+CiAgICA8aW1nIHNyYz0iaHR0cHM6Ly9zdGF0aWMuaW1nYnVyci5jb20vc3RhdGljL2ppZ2dseXB1ZmYucG5nIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgYWx0PSJKaWdnbHlwdWZmIiAvPgoKICAgIDwvZGl2PgoKICAgIC8vIFJlbmRlciBhbGwgZGVtbyBjb21wb25lbnRzCiAgICA8U3RlcmlvTWFkc2VuZXNzIC8+CiAgICA8R1RBNiAvPgogICAgPEJvbmdpbmdCYWxscyAvPgogICAgPEJpbGxpbmcgLz4KICAgIDxDYW1lcmFGZWVkIC8+CiAgICA8Q29udGFjdE1vZGFsIC8+CiAgICA8RGlub0dhbWUgLz4KICAgIDxQb3RhdG8gLz4KICAgIDxTbG90VG9vYmFrIC8+CiAgICA8U3RvcHBpbmQgLz4KICAgIDxWb2ljZSByZWNvcmRlcjw+CiAgICA8UG9sb3RNb2RlbCBcLz4KICA8L2Rpdj4KICk7Cgp9OwoKZXhwb3J0IGRlZmF1bHQgQXBwOwo=
+import React from 'react';
+import './App.css';
+import BouncingBall from './BouncingBall';
+import CameraFeed from './CameraFeed';
+import ContactModal from './ContactModal';
+import DinoGame from './DinoGame';
+import Potato from './Potato';
+import SlotToolbag from './SlotToolbag';
+import Stopwatch from './Stopwatch';
+import VoiceRecorder from './VoiceRecorder';
+import StereoMadness from './components/StereoMadness';
+import GTA6 from './components/GTA6';
+import PollModel from './PollModel';
+
+function App() {
+  return (
+    <div className="app-container" style={{ textAlign: 'center', marginTop: '2rem' }}>
+      <h1>My Website Title</h1>
+      <div>
+        <h2>Kirby and Jigglypuff</h2>
+        <img src="https://static.imgburr.com/static/kirby.png" width="100" height="100" alt="Kirby" />
+        <img src="https://static.imgburr.com/static/jigglypuff.png" width="100" height="100" alt="Jigglypuff" />
+      </div>
+      {/* Render all demo components */}
+      <StereoMadness />
+      <GTA6 />
+      <BouncingBall />
+      <CameraFeed />
+      <ContactModal />
+      <DinoGame />
+      <Potato />
+      <SlotToolbag />
+      <Stopwatch />
+      <VoiceRecorder />
+      <PollModel />
+    </div>
+  );
+}
+
+export default App;
