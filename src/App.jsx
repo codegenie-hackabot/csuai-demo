@@ -6,6 +6,7 @@ import VoiceRecorder from './VoiceRecorder';
 import Stopwatch from './Stopwatch';
 import BouncingBall from './BouncingBall';
 import ContactModal from './ContactModal';
+import Potato from './Potato';
 
 function App() {
   const [fibPrev, setFibPrev] = useState(0);
@@ -83,6 +84,7 @@ function App() {
       </section>
       <button onClick={() => setIsModalOpen(true)} style={{ marginTop: '1.5rem' }}>Contact Us</button>
       <ContactModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      <Potato />
     </div>
   );
 }
