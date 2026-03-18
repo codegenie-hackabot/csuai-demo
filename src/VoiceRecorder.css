@@ -1,0 +1,16 @@
+.voice-recorder {
+  margin: 2rem auto;
+  max-width: 400px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.voice-recorder button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+.voice-recorder .playback {
+  margin-top: 1rem;
+}
