@@ -7,15 +7,17 @@
 - Added a Fibonacci counter with a button to advance the sequence.
 - Added a simple slot‑machine component at the bottom of the page.
 - Added an apology component (`src/Apology.jsx`) that no longer contains any apology text.
-- **New:** Investor pitch section appended to the bottom of the page.
+- **Investor Pitch** section appended to the bottom of the page.
+- **Financial projection table** added under the pitch.
 
 ## Files Modified / Added
-- `src/App.jsx` – updated layout, includes investor pitch.
-- `src/Apology.jsx` – placeholder component without apology content.
-- `src/SlotMachine.jsx` – functional React component that animates three symbols and a "Spin" button.
-- `src/SlotMachine.css` – basic styling for the slot machine.
+- `src/App.jsx` – updated layout, includes investor pitch and financial table.
+- `src/Apology.jsx` – placeholder component.
+- `src/SlotMachine.jsx` – functional component.
+- `src/SlotMachine.css` – basic styling.
 - `SPECIFICATION.md` – updated to reflect current state.
 
 ## Future Work
 - Enhance slot‑machine with real reels, win detection, scoring, and theming.
+- Expand financial modeling and add interactive charts.
 - Add more pages or navigation as needed.
