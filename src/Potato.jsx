@@ -2,8 +2,8 @@ import React from 'react';
 import './Potato.css';
 
 const Potato = () => (
-  <div className="potato-container">
-    <img src="https://via.placeholder.com/100?text=Potato" alt="Spinning Potato" className="potato-image" />
+  <div className="potato-container" role="img" aria-label="spinning potato">
+    <span className="potato-emoji" role="img" aria-hidden="true">🥔</span>
   </div>
 );
 
