@@ -5,12 +5,14 @@ import CameraFeed from './CameraFeed';
 import VoiceRecorder from './VoiceRecorder';
 import Stopwatch from './Stopwatch';
 import BouncingBall from './BouncingBall';
+import ContactModal from './ContactModal';
 
 function App() {
   const [fibPrev, setFibPrev] = useState(0);
   const [fibCurr, setFibCurr] = useState(1);
   const [rolling, setRolling] = useState(false);
   const [ballSpeed, setBallSpeed] = useState(1);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const incrementFib = () => {
     const next = fibPrev + fibCurr;
@@ -79,6 +81,8 @@ function App() {
           </tbody>
         </table>
       </section>
+      <button onClick={() => setIsModalOpen(true)} style={{ marginTop: '1.5rem' }}>Contact Us</button>
+      <ContactModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );
 }
