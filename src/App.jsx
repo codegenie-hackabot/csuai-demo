@@ -3,9 +3,9 @@ import './App.css';
 import SlotMachine from './SlotMachine';
 import Apology from './Apology';
 import BouncingBall from './BouncingBall';
+import AngryResponse from './AngryResponse';
 
 function App() {
-  // Fibonacci counter state: keep previous two numbers
   const [fibPrev, setFibPrev] = useState(0);
   const [fibCurr, setFibCurr] = useState(1);
 
@@ -20,13 +20,11 @@ function App() {
       <h1>CSUAI Demo</h1>
       <p>Subtext that says.</p>
       <p>Oranges are oddly spherical, yet they never roll away when you stare at them.</p>
-      <p>
-        Fibonacci Counter: {fibPrev}
-      </p>
+      <p>Fibonacci Counter: {fibPrev}</p>
       <button onClick={incrementFib} style={{ marginBottom: '1rem' }}>Next Fibonacci</button>
       <SlotMachine />
-      {/* Apology letter to the team */}
       <Apology />
+      <AngryResponse />
       <BouncingBall />
     </div>
   );
