@@ -1,11 +1,3 @@
-# Specification for csuai-demo
+# Specification
 
-## Overview
-- Vite + React single‑page application.
-- The home page (src/App.jsx) displays a centered heading **"CSUAI Demo"** with a subtext paragraph.
-
-## Files Modified
-- `src/App.jsx` – simplified to only render the heading and subtext.
-
-## Future Work
-- Add navigation, additional sections, or styling as required.
+- Updated subtext in App component to include the phrase "narnes and bobles".
