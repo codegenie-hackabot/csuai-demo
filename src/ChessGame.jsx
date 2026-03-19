@@ -1,1 +1,40 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgJycjL0NoZXNzR2FtZS5jc3MnO1xyXG5cclxuY29uc3QgaW5pdGlhbEJvYXJkID0gW1tcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdLFtcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdLFtcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdLFtcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdLFtcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdLFtcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdLFtcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdXVtcLCAiXCJcIlxyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQ2hlc3NHYW1lKCkgeyB9XG5cclxuY29uc3QgaW5pdGlhbEJvYXJkID0gW1tcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdLFtcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdLFtcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdLFtcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdLFtcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdLFtcJ8Kj8Jw8JzxcJ+KAj8K8JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyIsIFwn4KJ5JzxcJyBdXVtcLCAiXCJcIlxyXG5cclxuZnVuY3Rpb24gQ2hhbmdlQ2FzZShuZXcgQm9hcmQpIHtcclxuICBzZXRCb2FyZChuZXcpO1xyXG59XG5cclxuZnVuY3Rpb24gaXNGYW5jdGlvbmFsKHBpZWNlKSB7XHJcbiAgcmV0dXJuIFtcJ1xuJ10uYmluZCg9PT0nXGcnKTsge1xyXG59XHJcblxyXG5mdW5jdGlvbiBpc0VtRW5wYXNzYW50KHBpZWNlKSB7XHJcbiAgcmV0dXJuIFtcJ25ld19tb2RlXzEnLGAnZmlsZScsJyBbdG9fY2l0eV0gZmlsZSBbLCAgYm9vZV0sJy5gZm9yJ10pO1xyXG59XHJcblxyXG5mdW5jdGlvbiBnZXRQb2ludCgwLCAwKSB7XHJcbiAgY29uc29sZS5sb2coJ0RldmVsIGZhbWlseSBkZWxldGluZyB5ZWFyZWdvc2hvcCBnZXRQb2ludC4nKTsKfVxyXG5cclxuY29uc3QgQ2hlc3NHYW1lID0gKCkgPT4ge1xyXG4gIGNvbnN0IFtib2FyZCwgc2V0Qm9hcmRdID0gdXNlU3RhdGUoaW5pdGlhbEJvYXJkKTtcclxuICBjb25zdCBbc2VsZWN0ZWRdID0gdXNlU3RhdGUobnVsbCk7IC8vIHt...
+import React, { useState } from 'react';
+import './ChessGame.css';
+
+const initialBoard = [
+  [null,null,null,null,null,null,null,null],
+  [null,null,null,null,null,null,null,null],
+  [null,null,null,null,null,null,null,null],
+  [null,null,null,null,null,null,null,null],
+  [null,null,null,null,null,null,null,null],
+  [null,null,null,null,null,null,null,null],
+  [null,null,null,null,null,null,null,null],
+  [null,null,null,null,null,null,null,null]
+];
+
+export default function ChessGame(){
+  const [board,setBoard]=useState(initialBoard);
+  const [currentPlayer,setCurrentPlayer]=useState('White');
+  function handleCellClick(row,col){
+    if(board[row][col]!==null) return;
+    const newBoard=board.map(r=>r.slice());
+    newBoard[row][col]=currentPlayer==='White'?'W':'B';
+    setBoard(newBoard);
+    setCurrentPlayer(p=>p==='White'?'Black':'White');
+  }
+  return(
+    <div className="chess-game">
+      <h2>Chess Game</h2>
+      <p>Current turn: <strong>{currentPlayer}</strong></p>
+      <div className="board">
+        {board.map((row,rIdx)=>(
+          <div key={rIdx} className="row">
+            {row.map((cell,cIdx)=>(
+              <div key={cIdx} className="cell" onClick={()=>handleCellClick(rIdx,cIdx)}>{cell}</div>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
