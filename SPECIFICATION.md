@@ -1,1 +1,10 @@
-# Specification\n\n## Chess Game\n- Board displays pieces using Unicode symbols.\n- Click a piece then a destination to move.\n- Basic movement rules are enforced:\n  - Pawns move forward one square, capture diagonally, and can perform en passant when applicable.\n  - Other pieces currently have no movement restrictions.\n- En passant is allowed immediately after an opponent pawn makes a two‑square advance from its starting rank.\n\n*Further rules may be added later.*
+# Application Specification
+
+## Chess Game
+- Displays an 8x8 board.
+- Players take turns placing a piece (W for White, B for Black) on any empty cell.
+- The current player's turn is shown above the board.
+- A **Reset Game** button clears the board and sets the turn back to White.
+- Clicking an occupied cell does nothing.
+
+*Other components remain unchanged.*
