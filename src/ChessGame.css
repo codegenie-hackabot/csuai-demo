@@ -1,0 +1,6 @@
+.chess-game { text-align: center; }
+.board { display: inline-block; border: 2px solid #333; }
+.row { display: flex; }
+.cell { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-size: 24px; }
+.light { background: #f0d9b5; }
+.dark { background: #b58863; }
