@@ -5,3 +5,4 @@
 - `index.html` has been restored with the appropriate title and font link.
 - A **SlotMachine** component is rendered directly under the main title.
 - Added a **ChessGame** component displaying a static chess board.
+- Added a **Header** component showing the project name on the left and a GitHub link on the right.
