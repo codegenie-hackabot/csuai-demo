@@ -6,3 +6,4 @@
 - A **SlotMachine** component is rendered directly under the main title.
 - Added a **ChessGame** component displaying a static chess board.
 - Added a **Header** component showing the project name on the left and a GitHub link on the right.
+- **ChessGame** now supports basic piece movement: click a piece then a destination square to move it.
