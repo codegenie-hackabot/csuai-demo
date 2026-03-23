@@ -1,10 +1,9 @@
-# Application Specification
+# Specification
 
-## Chess Game
-- Displays an 8x8 board.
-- Players take turns placing a piece (W for White, B for Black) on any empty cell.
-- The current player's turn is shown above the board.
-- A **Reset Game** button clears the board and sets the turn back to White.
-- Clicking an occupied cell does nothing.
+## Overview
+The website now displays a minimal React application. The `index.html` loads the React app, and `App.jsx` renders a simple header and a brief message.
 
-*Other components remain unchanged.*
+## Changes Made
+- Replaced `index.html` with a minimal placeholder page that now loads the React bundle.
+- Simplified `src/App.jsx` to only include a `Header` component and minimal content.
+- Updated repository commit history accordingly.
