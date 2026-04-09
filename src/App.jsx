@@ -6,6 +6,7 @@ function App() {
     <div style={{ textAlign: 'center', marginTop: '2rem' }}>
       <h1>CSUAI Demo</h1>
       <p>Subtext that says.</p>
+      <p>You can make any changes you want to this website directly through the chat.</p>
     </div>
   );
 }
